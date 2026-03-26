@@ -1,29 +1,32 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    background: url(https://img.freepik.com/fotos-premium/fondo-patron-noticias-ultima-hora-azul-brillante-creativo-globo-comunicacion-titulares-concepto-mundo-global-representacion-3d_670147-21161.jpg);
+    margin: 40px;
+    background: url(https://wallpapers.com/images/hd/breaking-news-background-sc9wenfgo5cufe3f.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    line-height: 1.6;
 }
 
 .header {
-    background: linear-gradient(to right, darkblue, royalblue);
+    background: linear-gradient(to right,red, white);
     color: white;
     padding: 30px;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     border: 2px solid white;
     border-radius: 12px;
     text-align: center;
+    background: url(https://img.freepik.com/fotos-premium/linea-roja-abstracta-fondo-negro-portada-tarjeta-visita-volante-estandarte-ilustracion-vectorial_1109131-658.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;;
 }
 
 .nav {
-    background: gold;
+    background: aliceblue;
+    color: navy;
     padding: 12px;
     margin-top: 15px;
-    border: 2px solid black;
+    border: 2px solid steelblue;
     border-radius: 10px;
     text-align: center;
     font-size: 18px;
@@ -32,7 +35,7 @@ body {
 
 .main {
     display: flex;
-    gap: 15px;
+    gap: 600px;
     margin-top: 15px;
 }
 
@@ -49,54 +52,62 @@ body {
 }
 
 .noticia {
-    background: linear-gradient(to right, lightblue, red);
+    background: linear-gradient(to right,red, black);
     color: white;
     padding: 20px;
     border: 2px solid white;
     border-radius: 12px;
     flex: 1;
-    height: 220px;
-    font-size: 16px;
+    height: 200px;
+    font-size: 25px;
     transition: 0.3s;
     cursor: pointer;
 }
 
 .noticia:hover {
     transform: scale(1.05);
-    background: linear-gradient(to right, black, blue);
-    cursor: pointer;
+    background: linear-gradient(to right, black, white);
+    background: url(https://media.tenor.com/1Qs83afjC6IAAAAM/luli-temblor.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+        height: 400px;
+    transition: 0.5s;
 }
-
+ 
 .aside {
     background: white;
     padding: 20px;
-    border: 2px solid silver;
+    border: 2px solid black;
     border-radius: 10px;
     flex: 1;
-    font-size: 100;
-    text-align: center;
+    text-align: left;
     color: black;
+    font-size: 25px;
+    height: 320px;
+    line-height: 50px;
 }
 
 .article {
-    background: black;
+    background: linear-gradient(to right, white, red, black);
     color: white;
-    padding: 50px;
+    padding: 150px;
     margin-top: 10px;
-    border: 1px solid dimgray;
+    border: 2px solid silver;
     border-radius: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 500px;
 }
 
 .footer {
-    background: darkslategrey;
-    color: white;
+    background: white;
+    color: black;
     text-align: center;
-    padding: 20px;
-    margin-top: 15px;
-    border: 2px solid gold;
+    padding: 5px;
+    margin-top: 30px;
+    border: 2px solid black;
     border-radius: 10px;
-    font-size: 100;
-
+    font-size: 20px;
 }
