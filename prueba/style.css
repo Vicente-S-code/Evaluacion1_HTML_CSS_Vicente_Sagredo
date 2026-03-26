@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: url(https://img.freepik.com/fotos-premium/fondo-patron-noticias-ultima-hora-azul-brillante-creativo-globo-comunicacion-titulares-concepto-mundo-global-representacion-3d_670147-21161.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1.6;
+}
+
+.header {
+    background: linear-gradient(to right, darkblue, royalblue);
+    color: white;
+    padding: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.nav {
+    background: gold;
+    padding: 12px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 80px;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.noticia {
+    background: linear-gradient(to right, lightblue, red);
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 12px;
+    flex: 1;
+    height: 220px;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.noticia:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, black, blue);
+    cursor: pointer;
+}
+
+.aside {
+    background: white;
+    padding: 20px;
+    border: 2px solid silver;
+    border-radius: 10px;
+    flex: 1;
+    font-size: 100;
+    text-align: center;
+    color: black;
+}
+
+.article {
+    background: black;
+    color: white;
+    padding: 50px;
+    margin-top: 10px;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
+    background: darkslategrey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    font-size: 100;
+
+}
